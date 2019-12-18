@@ -1,14 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour {
 	public float enemyhealth;
+	// public GameObject enemyDeathFX;
+	public Slider enemyHealthBar;
 	float currhealth;
 
 	// Use this for initialization
 	void Start () {
 		currhealth = enemyhealth;
+		enemyHealthBar.maxValue = currhealth;
+		enemyHealthBar.value = currhealth;
 	}
 	
 	// Update is called once per frame
@@ -17,11 +22,14 @@ public class EnemyHealth : MonoBehaviour {
 	}
 	public void DiDor(float damage){
 		currhealth = currhealth - damage;
+		enemyHealthBar.value = currhealth;
 		if(currhealth<=0){
 			makeDead();
 		}
 	}
 	public void makeDead(){
 		Destroy(gameObject);
+		// Instantiate (enemyDeathFX,transform.position, transform.rotation);
+
 	}
 }

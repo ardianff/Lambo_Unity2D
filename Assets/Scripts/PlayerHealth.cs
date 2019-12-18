@@ -13,7 +13,7 @@ public class PlayerHealth : MonoBehaviour {
 
 	//Player Heart Bar
 	public Slider heartBar;
-	// public Image damageScreen;
+	public Image damageScreen;
 	bool damaged = false;
 	Color damagedColour = new Color(0f,0f,0f,0.5f);
 	float smoothColour = 5f;
@@ -32,12 +32,12 @@ public class PlayerHealth : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		// if(damaged){
-		// 	damageScreen.color = damagedColour;
-		// }else{
-		// 	damageScreen.color =Color.Lerp(damagedScreen.color, Color.clear,smoothColour*Time.deltaTime);
-		// }
-		// damaged = false;
+		if(damaged){
+			damageScreen.color = damagedColour;
+		}else{
+			damageScreen.color = Color.Lerp(damageScreen.color, Color.clear,smoothColour*Time.deltaTime);
+		}
+		damaged = false;
 		
 	}
 

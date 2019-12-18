@@ -8,6 +8,8 @@ public class PlayerHealth : MonoBehaviour {
 	public float fullHealth;
 	//public GameObject deathFX;
 	float currentHealth;
+	public AudioClip playerHurt;
+	AudioSource playerAS;
 
 	PlayerController playerControl;
 
@@ -15,7 +17,7 @@ public class PlayerHealth : MonoBehaviour {
 	public Slider heartBar;
 	public Image damageScreen;
 	bool damaged = false;
-	Color damagedColour = new Color(0f,0f,0f,0.5f);
+	Color damagedColour = new Color(5f,5f,0f,0.5f);
 	float smoothColour = 5f;
 
 	// Use this for initialization
@@ -26,6 +28,8 @@ public class PlayerHealth : MonoBehaviour {
 		//Heart Bar
 		heartBar.maxValue=fullHealth;
 		heartBar.value=fullHealth;
+
+		playerAS =GetComponent<AudioSource>();
 
 		damaged = false;
 	}
@@ -44,6 +48,9 @@ public class PlayerHealth : MonoBehaviour {
 	public void addDamage(float damage){
 		if(damage<=0) return;
 		currentHealth = currentHealth - damage;
+		//playerAS.clip =  playerHurt;
+		//playerAS.Play(1);
+		playerAS.PlayOneShot(playerHurt);
 		heartBar.value = currentHealth;
 		damaged = true;
 

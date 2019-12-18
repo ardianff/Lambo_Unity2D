@@ -58,11 +58,7 @@ public class PlayerHealth : MonoBehaviour {
 			makeDead();
 		}
 	}
-	public void addHealth(float health){
-		currentHealth += health;
-		if(currentHealth>fullHealth) currentHealth=fullHealth;
-		heartBar.value =currentHealth; 
-	}
+
 	public void makeDead(){
 		//Instantiate(deathFX, transform.position, transform.rotation);
 	

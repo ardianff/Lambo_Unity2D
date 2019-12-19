@@ -9,7 +9,7 @@ public class EnemyHealth : MonoBehaviour {
 	public Slider enemyHealthBar;
 	float currhealth;
 	public bool drops;
-	// public GameObject thedrop;
+	public GameObject thedrop;
 
 	// Use this for initialization
 	void Start () {
@@ -32,7 +32,7 @@ public class EnemyHealth : MonoBehaviour {
 	public void makeDead(){
 		Destroy(gameObject);
 		// Instantiate (enemyDeathFX,transform.position, transform.rotation);
-		// if(drops) Instantiate(thedrop,transform.position, transform.rotation);
+		 if(drops) Instantiate(thedrop,transform.position, transform.rotation);
 
 	}
 }

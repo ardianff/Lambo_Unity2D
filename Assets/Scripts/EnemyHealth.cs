@@ -8,6 +8,8 @@ public class EnemyHealth : MonoBehaviour {
 	// public GameObject enemyDeathFX;
 	public Slider enemyHealthBar;
 	float currhealth;
+	public bool drops;
+	// public GameObject thedrop;
 
 	// Use this for initialization
 	void Start () {
@@ -15,10 +17,10 @@ public class EnemyHealth : MonoBehaviour {
 		enemyHealthBar.maxValue = currhealth;
 		enemyHealthBar.value = currhealth;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 	public void DiDor(float damage){
 		currhealth = currhealth - damage;
@@ -30,6 +32,7 @@ public class EnemyHealth : MonoBehaviour {
 	public void makeDead(){
 		Destroy(gameObject);
 		// Instantiate (enemyDeathFX,transform.position, transform.rotation);
+		// if(drops) Instantiate(thedrop,transform.position, transform.rotation);
 
 	}
 }

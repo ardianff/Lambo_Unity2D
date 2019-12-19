@@ -14,7 +14,7 @@ public class GUImanager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    
+
     }
     public void OnPlay()
     {
@@ -24,11 +24,8 @@ public class GUImanager : MonoBehaviour
     {
       SceneManager.LoadScene("Level");
     }
-
-    public void level1()
+    public void OnMenu()
     {
-      SceneManager.LoadScene("Main");
+      SceneManager.LoadScene("Menu");
     }
-
-
 }

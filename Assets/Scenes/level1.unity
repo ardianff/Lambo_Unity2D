@@ -5341,6 +5341,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1228740889}
+--- !u!1 &1243888871 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 696879261524208309, guid: 350cebe793308b943aa732478f94dd6a,
+    type: 3}
+  m_PrefabInstance: {fileID: 696879263119773407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1243888872
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243888871}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 3.1824
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 2
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1001 &1388912722
 PrefabInstance:
   m_ObjectHideFlags: 0

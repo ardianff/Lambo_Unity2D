@@ -18,7 +18,7 @@ In this game you have to fight the Buto and his commander who has kidnapped Jack
 - Thanks to all of the game development community for their awesome help.
 
 # Software Requirement
-- Any Unity 2017.4 or higher version
+- Any Unity 2018.4 or higher version
 - Visual Studio Code (Recommended) or any text editor
 
 # Contributor

@@ -10,6 +10,7 @@ public class EnemyHealth : MonoBehaviour {
 	float currhealth;
 	public bool drops;
 	public GameObject thedrop;
+	public AudioClip deathKnell;
 
 	// Use this for initialization
 	void Start () {
@@ -30,6 +31,7 @@ public class EnemyHealth : MonoBehaviour {
 		}
 	}
 	public void makeDead(){
+		AudioSource.PlayClipAtPoint(deathKnell, transform.position);
 		Destroy(gameObject);
 		// Instantiate (enemyDeathFX,transform.position, transform.rotation);
 		 if(drops) Instantiate(thedrop,transform.position, transform.rotation);

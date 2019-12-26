@@ -8,6 +8,7 @@ TagManager:
   - Batas
   - Enemy
   - Batas_Mati
+  - chnglvl
   layers:
   - Default
   - TransparentFX

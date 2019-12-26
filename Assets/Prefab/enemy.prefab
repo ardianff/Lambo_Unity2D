@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 8122764505172062527}
   - component: {fileID: 8122764505172062526}
   m_Layer: 9
-  m_Name: EnemyFour
+  m_Name: enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -180,11 +180,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a35ffb6b28020d844bc5884878beb0b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyhealth: 1500
+  enemyhealth: 400
   enemyHealthBar: {fileID: 8155472297558660346}
   drops: 1
   thedrop: {fileID: 1095169637426670, guid: fc4e9653ea814614d9b337845b73d4d2, type: 3}
-  deathKnell: {fileID: 8300000, guid: e99091513bc02414dba787e523b1ed07, type: 3}
 --- !u!114 &8122764505172062526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,7 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 80
+  damage: 30
   damageRate: 0.5
   pushBackForce: 0
 --- !u!1001 &8122764503582239782

@@ -15,7 +15,7 @@ In this game you have to fight the Buto and his commander who has kidnapped Jack
 - Graphics Sprite [Free Platform Game Assets](https://craftpix.net/freebies/)
 - Tutorial this Game [Visit It](https://www.beelancah.com)
 - Game Engine [Unity](https://unity3d.com/)
-- Sound effects [this] (https://youtube.com/)
+- Sound effects [this](https://youtube.com/)
 - Thanks to all of the game development community for their awesome help.
 
 # Software Requirement

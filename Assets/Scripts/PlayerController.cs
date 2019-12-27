@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
@@ -8,6 +9,9 @@ public class PlayerController : MonoBehaviour
     public LayerMask playerMask;
     public GameObject Sword,pos_sword;
     public bool canMoveInAir = true;
+    public GameObject gameOverScreen;
+    public GameManager theGameManager;
+    
 
     float fireRate = 0;
     float nextfire = 0;
@@ -87,7 +91,11 @@ public class PlayerController : MonoBehaviour
     {
       if(coll.gameObject.tag == "Batas_Mati")
       {
-        Die();
+        // Destroy(gameObject);
+		// Animator gameoverAnim =  gameOverScreen.GetComponent<Animator>();
+		// gameoverAnim.SetTrigger("gameOver");
+		// theGameManager.restartTheGame();
+        //Die();
       }
     }
 

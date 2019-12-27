@@ -10,6 +10,8 @@ public class PlayerHealth : MonoBehaviour {
 	float currentHealth;
 	public AudioClip playerHurt;
 	AudioSource playerAS;
+	public GameObject gameOverScreen;
+    public GameManager theGameManager;
 
 	PlayerController playerControl;
 
@@ -66,7 +68,10 @@ public class PlayerHealth : MonoBehaviour {
 	public void makeDead(){
 		//Instantiate(deathFX, transform.position, transform.rotation);
 	
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-
+		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		Destroy(gameObject);
+		Animator gameoverAnim =  gameOverScreen.GetComponent<Animator>();
+		gameoverAnim.SetTrigger("gameOver");
+		theGameManager.restartTheGame();
 	}
 }

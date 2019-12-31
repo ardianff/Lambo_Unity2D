@@ -5921,15 +5921,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 56e751d58e2c2084f8ac1558f9152ded, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 84c0735726aed9b498e74310aed30b32, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 20, y: 11.43}
+  m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1951039634
@@ -6253,6 +6253,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8122764505172062522, guid: 1eaa8934b9e9c5046be7f1dfbac52198,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122764505172062527, guid: 1eaa8934b9e9c5046be7f1dfbac52198,
+        type: 3}
+      propertyPath: deathKnell
+      value: 
+      objectReference: {fileID: 8300000, guid: e99091513bc02414dba787e523b1ed07, type: 3}
     - target: {fileID: 8122764505172062918, guid: 1eaa8934b9e9c5046be7f1dfbac52198,
         type: 3}
       propertyPath: m_Name

@@ -91,11 +91,8 @@ public class PlayerController : MonoBehaviour
     {
       if(coll.gameObject.tag == "Batas_Mati")
       {
-        // Destroy(gameObject);
-		// Animator gameoverAnim =  gameOverScreen.GetComponent<Animator>();
-		// gameoverAnim.SetTrigger("gameOver");
-		// theGameManager.restartTheGame();
-        //Die();
+        Destroy(gameObject);
+        Die();
       }
     }
 

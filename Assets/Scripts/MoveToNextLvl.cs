@@ -5,29 +5,29 @@ using UnityEngine.SceneManagement;
 
 public class MoveToNextLvl : MonoBehaviour
 {
-  //public int nextSceneLoad;
+  public int nextSceneLoad;
     // Start is called before the first frame update
-    public GameManager gameManager;
+    // public GameManager gameManager;
      void Start()
      {
-       //nextSceneLoad = SceneManager.GetActiveScene().buildIndex + 1;
+       nextSceneLoad = SceneManager.GetActiveScene().buildIndex + 1;
      }
 
-    //  public void OnTriggerEnter2D(Collider2D coll)
-    //  {
-    //    if(coll.gameObject.tag == "Player")
-    //    {
-    //      gameManager.CompleteLevel();
-    //        //pindah level
-    //        SceneManager.LoadScene(nextSceneLoad);
+     public void OnTriggerEnter2D(Collider2D coll)
+     {
+       if(coll.gameObject.tag == "Player")
+       {
+         //gameManager.CompleteLevel();
+           //pindah level
+           SceneManager.LoadScene(nextSceneLoad);
 
-    //        if(nextSceneLoad > PlayerPrefs.GetInt("levelAt"))
-    //        {
-    //       PlayerPrefs.SetInt("levelAt", nextSceneLoad);
-    //        }
-    //    }
-    //  }
-    void OnTriggerEnter2D(){
-      gameManager.CompleteLevel();
+           if(nextSceneLoad > PlayerPrefs.GetInt("levelAt"))
+           {
+          PlayerPrefs.SetInt("levelAt", nextSceneLoad);
+           }
+       }
     }
+    // void OnTriggerEnter2D(){
+    //   gameManager.CompleteLevel();
+    // }
 }

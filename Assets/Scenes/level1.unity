@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &17886901
@@ -358,7 +358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &30933793
@@ -10052,7 +10052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &71614926
@@ -10332,7 +10332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &107077809
@@ -10849,7 +10849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &164580475
@@ -10974,7 +10974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &165546886
@@ -11459,7 +11459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &220112726
@@ -11660,7 +11660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &230988438
@@ -11782,7 +11782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &236646829
@@ -12378,7 +12378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &283807485
@@ -12579,7 +12579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &306049899
@@ -12941,7 +12941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &311321139
@@ -13290,7 +13290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &327485193
@@ -15268,7 +15268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &523251201
@@ -15472,7 +15472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &545765201
@@ -15754,7 +15754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &612967783
@@ -16666,7 +16666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &703403157
@@ -16867,7 +16867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &714739331
@@ -17068,7 +17068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &776073239
@@ -17190,7 +17190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &784115814
@@ -17789,7 +17789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &853051523
@@ -18466,7 +18466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &933740351
@@ -18749,7 +18749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &948061990
@@ -19347,7 +19347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &1008403183
@@ -20022,7 +20022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &1094152600
@@ -22343,7 +22343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &1306027597
@@ -22623,7 +22623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &1327770196
@@ -22975,6 +22975,51 @@ PrefabInstance:
     - target: {fileID: 4502052618944136, guid: ccf3e506f5138b849a42de856f6d8c04, type: 2}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114274602816574560, guid: ccf3e506f5138b849a42de856f6d8c04,
+        type: 2}
+      propertyPath: damage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114275820525528062, guid: ccf3e506f5138b849a42de856f6d8c04,
+        type: 2}
+      propertyPath: damage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114475413552680534, guid: ccf3e506f5138b849a42de856f6d8c04,
+        type: 2}
+      propertyPath: damage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114621068410572336, guid: ccf3e506f5138b849a42de856f6d8c04,
+        type: 2}
+      propertyPath: damage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114739565589997418, guid: ccf3e506f5138b849a42de856f6d8c04,
+        type: 2}
+      propertyPath: damage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114792924682309524, guid: ccf3e506f5138b849a42de856f6d8c04,
+        type: 2}
+      propertyPath: damage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114879362937656352, guid: ccf3e506f5138b849a42de856f6d8c04,
+        type: 2}
+      propertyPath: damage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114900694183120968, guid: ccf3e506f5138b849a42de856f6d8c04,
+        type: 2}
+      propertyPath: damage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114906953832538828, guid: ccf3e506f5138b849a42de856f6d8c04,
+        type: 2}
+      propertyPath: damage
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccf3e506f5138b849a42de856f6d8c04, type: 2}
@@ -23433,7 +23478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &1450026841
@@ -23797,7 +23842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &1509703140
@@ -24852,7 +24897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &1637395925
@@ -25691,7 +25736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &1741011881
@@ -25892,7 +25937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &1764913964
@@ -26172,7 +26217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &1776699771
@@ -26294,7 +26339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &1780994314
@@ -26574,7 +26619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &1787287909
@@ -27091,7 +27136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &1864079541
@@ -27292,7 +27337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &1890384749
@@ -27638,7 +27683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &1912099782
@@ -27839,7 +27884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &1922508792
@@ -28356,7 +28401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &1956800711
@@ -28809,7 +28854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &1994359284
@@ -29328,7 +29373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &2041827508
@@ -29845,7 +29890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &2102939765
@@ -30362,7 +30407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b33f24cb6abbef44b7e5b633d48f666, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 20
   damageRate: 0.5
   pushBackForce: 5
 --- !u!61 &2141966359
@@ -30545,6 +30590,11 @@ PrefabInstance:
       propertyPath: gameOverScreen
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 696879261524208302, guid: 350cebe793308b943aa732478f94dd6a,
+        type: 3}
+      propertyPath: fullHealth
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 696879261524208303, guid: 350cebe793308b943aa732478f94dd6a,
         type: 3}
       propertyPath: theGameManager
@@ -30707,6 +30757,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: EnemyOne
+      objectReference: {fileID: 0}
+    - target: {fileID: 5474568323481403505, guid: f3975c433c3f83a42b9a39d70b696ef4,
+        type: 3}
+      propertyPath: damage
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 5474568323481403506, guid: f3975c433c3f83a42b9a39d70b696ef4,
         type: 3}

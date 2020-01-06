@@ -3,6 +3,13 @@ Game Platformer using unity2D
 
 ![main](https://user-images.githubusercontent.com/43342329/70964596-069cc080-20bf-11ea-8c0c-4018570ef116.png)
 
+# Screenshoot
+![ss1](https://user-images.githubusercontent.com/43342329/71822611-da75cd80-30c7-11ea-8ef4-deba915c6833.PNG)
+
+![ss2](https://user-images.githubusercontent.com/43342329/71822613-db0e6400-30c7-11ea-9d8d-099f2d267ee3.PNG)
+
+![ss3](https://user-images.githubusercontent.com/43342329/71822614-db0e6400-30c7-11ea-83c9-bf2337ce2085.PNG)
+
 # How To Play
 To play it use the right, left, top arrow
 and Space to shoot

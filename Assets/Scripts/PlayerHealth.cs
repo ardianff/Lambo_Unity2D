@@ -35,7 +35,7 @@ public class PlayerHealth : MonoBehaviour {
 
 		damaged = false;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		if(damaged){
@@ -44,7 +44,7 @@ public class PlayerHealth : MonoBehaviour {
 			damageScreen.color = Color.Lerp(damageScreen.color, Color.clear,smoothColour*Time.deltaTime);
 		}
 		damaged = false;
-		
+
 	}
 
 	public void addDamage(float damage){
@@ -63,15 +63,12 @@ public class PlayerHealth : MonoBehaviour {
 	public void addHealth(float health){
 		currentHealth += health;
 		if(currentHealth>fullHealth) currentHealth=fullHealth;
-		heartBar.value =currentHealth; 
+		heartBar.value =currentHealth;
 	}
 	public void makeDead(){
 		//Instantiate(deathFX, transform.position, transform.rotation);
-	
+
 		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-		Destroy(gameObject);
-		Animator gameoverAnim =  gameOverScreen.GetComponent<Animator>();
-		gameoverAnim.SetTrigger("gameOver");
-		theGameManager.restartTheGame();
+		SceneManager.LoadScene("GameOver");
 	}
 }

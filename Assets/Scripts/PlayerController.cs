@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public bool canMoveInAir = true;
     public GameObject gameOverScreen;
     public GameManager theGameManager;
-    
+
 
     float fireRate = 0;
     float nextfire = 0;
@@ -82,7 +82,7 @@ public class PlayerController : MonoBehaviour
         }
         Vector2 screenPosition = Camera.main.WorldToScreenPoint(transform.position);
 		if (screenPosition.y > Screen.height || screenPosition.y < 0){
-            Die();
+            died();
         }
 
     }
@@ -91,14 +91,18 @@ public class PlayerController : MonoBehaviour
     {
       if(coll.gameObject.tag == "Batas_Mati")
       {
-        Destroy(gameObject);
-        Die();
+        died();
       }
     }
 
     void Die(){
         Debug.Log("Game Over");
 		SceneManager.LoadScene("Menu");
+    }
+
+    void died()
+    {
+      SceneManager.LoadScene("GameOver");
     }
 
 

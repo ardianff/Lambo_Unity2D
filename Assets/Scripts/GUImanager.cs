@@ -6,7 +6,7 @@ using System;
 public class GUImanager : MonoBehaviour
 {
 
-    
+
     public void Play()
     {
       SceneManager.LoadScene("Level");
@@ -25,4 +25,13 @@ public class GUImanager : MonoBehaviour
       Application.Quit();
     }
 
+    public void Setting()
+    {
+      SceneManager.LoadScene("Setting");
+    }
+
+    public void OnCredit()
+    {
+      SceneManager.LoadScene("Credit");
+    }
 }

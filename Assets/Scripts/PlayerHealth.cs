@@ -10,8 +10,8 @@ public class PlayerHealth : MonoBehaviour {
 	float currentHealth;
 	public AudioClip playerHurt;
 	AudioSource playerAS;
-	public GameObject gameOverScreen;
-    public GameManager theGameManager;
+	// public GameObject gameOverScreen;
+    // public GameManager theGameManager;
 
 	PlayerController playerControl;
 

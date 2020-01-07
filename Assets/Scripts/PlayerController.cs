@@ -9,8 +9,8 @@ public class PlayerController : MonoBehaviour
     public LayerMask playerMask;
     public GameObject Sword,pos_sword;
     public bool canMoveInAir = true;
-    public GameObject gameOverScreen;
-    public GameManager theGameManager;
+    // public GameObject gameOverScreen;
+    // public GameManager theGameManager;
 
 
     float fireRate = 0;

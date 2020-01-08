@@ -17,7 +17,7 @@ public class GUImanager : MonoBehaviour
     }
     public void OnMenu()
     {
-      SceneManager.LoadScene("Menu");
+      SceneManager.LoadScene(0);
     }
 
     void keluar()

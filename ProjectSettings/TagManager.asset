@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Batas_Mati
   - chnglvl
+  - Jack
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - Ground
   - Enemy
   - Spike
-  - 
+  - Jack
   - 
   - 
   - 

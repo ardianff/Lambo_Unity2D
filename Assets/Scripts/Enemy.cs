@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour {
  Transform myTrans;
  float myWidth, myHeight;
 
-	// Use this for initialization
+	
 	void Start () {
 		myTrans = this.transform;
   		myBody = this.GetComponent<Rigidbody2D>();
